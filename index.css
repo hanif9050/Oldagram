@@ -1,0 +1,80 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDED;
+    font-weight: 400;
+}
+img{
+    width: 100%;
+}
+/* typrogratypography */
+h4{
+    margin: 0;
+}
+p{
+    margin-top: 5px;
+}
+strong{
+    display: inline-block;
+    margin: 10px 0;
+}
+.user-name{
+    font-weight: 900;
+}
+/* layout */
+header,main{
+    width: 350px;
+    margin: 0 auto;
+   
+}
+nav{
+     background-color: #ffffff;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+nav .logo{
+    width: 120px;
+    height: 40px
+}
+nav .user-img{
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 50px;
+   
+      
+}
+
+.card{
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.card-header{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-header img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px
+}
+
+.card-footer{
+    padding: 16px 10px
+}
+.icon{
+    
+}
+.icon img{
+    width: 24px;
+    margin-right: 14px;
+}
+.icon img:hover{
+    background-color: red;
+}
